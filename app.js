@@ -50,6 +50,8 @@ app.use((error, req, res, next) => {
     })
 });
 
-
+app.get('/' , (req, res) => {
+    res.render('base.html');
+});
 
 module.exports = app;
