@@ -54,4 +54,8 @@ app.get('/' , (req, res) => {
     res.render('base.html');
 });
 
+app.get('/index' , (req, res) => {
+    res.render('index.html');
+});
+
 module.exports = app;
